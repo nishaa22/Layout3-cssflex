@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+.row1,.row2,.row3{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    margin-bottom: 20px;
+}
+.one,.three{
+    background-color: red;
+}
+.two{
+    background-color: blue;
+}
+.row1 .one,.two,.three{
+    width: 33.33%;
+}
+.row2 .one{
+    width: 40%;
+}
+.row2 .two{
+    width: 20%;
+}
+.row2 .three{
+    width: 40%;
+}
+.row3 .one{
+    width: 47%;
+}
+.row3 .two{
+    width: 6%;
+}
+.row3 .three{
+    width: 47%;
+}
